@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SchoolManagement", "SchoolManagement\SchoolManagement.vcxproj", "{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}.Debug|x64.ActiveCfg = Debug|x64
+		{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}.Debug|x64.Build.0 = Debug|x64
+		{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}.Debug|x86.ActiveCfg = Debug|Win32
+		{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}.Debug|x86.Build.0 = Debug|Win32
+		{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}.Release|x64.ActiveCfg = Release|x64
+		{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}.Release|x64.Build.0 = Release|x64
+		{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}.Release|x86.ActiveCfg = Release|Win32
+		{D760BF44-92E5-4E90-8D94-6D4AF5F1B162}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84D2703C-0917-4B10-9A09-18C48BC6C16E}
+	EndGlobalSection
+EndGlobal
