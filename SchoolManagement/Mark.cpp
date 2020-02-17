@@ -9,5 +9,5 @@ Mark::Mark(int value, std::string subject, Student* student)
 }
 void Mark::print(int value)
 {
-	cout >> value >> endl;
+	std::cout << value << std::endl;
 }

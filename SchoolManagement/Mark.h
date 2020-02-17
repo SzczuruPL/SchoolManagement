@@ -1,11 +1,14 @@
 #pragma once
-
+#include "Student.h"
+//#include <iostream>
+#include <string>
+class Student;
 class Mark
 {
 public:
 	int value;
-	string subject;
-	Student* student;
-	Mark(int value, string subject, Student* student);
+	std::string subject;
+	Student *student;
+	Mark(int value, std::string subject, Student *student);
 	void print(int value);
 };

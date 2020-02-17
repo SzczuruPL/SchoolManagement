@@ -8,8 +8,6 @@ using namespace std;
 
 int main()
 {
-	Mark mark;
-	Mark mark2;
-	Student student;
-
+	Student student("John","Doe");
+	Mark mark(6,"math",&student);
 }
