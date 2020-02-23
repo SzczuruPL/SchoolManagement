@@ -5,7 +5,7 @@
 
 Mark::Mark(int value, std::string subject, Student* student)
 {
-
+	// CCo z tym?
 }
 void Mark::print(int value)
 {

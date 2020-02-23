@@ -11,7 +11,7 @@ public:
 	std::string surname;
 	std::vector<Mark> markVector;
 	Student(std::string name, std::string surname);
-	void addMark(Mark *mark);
+	void addMark(Mark *mark, std::vector<Mark> markVector);
 	void print();
 };
 
