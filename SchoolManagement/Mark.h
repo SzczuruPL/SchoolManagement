@@ -10,5 +10,5 @@ public:
 	std::string subject;
 	Student *student;
 	Mark(int value, std::string subject, Student *student);
-	void print(int value);
+	void print();
 };

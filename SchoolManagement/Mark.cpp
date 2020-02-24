@@ -5,9 +5,12 @@
 
 Mark::Mark(int value, std::string subject, Student* student)
 {
-	// CCo z tym?
+	this->value = value;
+	this->subject = subject;
+	this->student = student;
+	student->addMark(this);
 }
-void Mark::print(int value)
+void Mark::print()
 {
-	std::cout << value << std::endl;
+	std::cout << value << ' ' << subject << std::endl;
 }

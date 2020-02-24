@@ -6,17 +6,18 @@
 
 Student::Student(std::string name, std::string surname)
 {
-	//konstruktor 2 argumentowy, tworz¹cy obiekt typu Student (o co tu biega?)
+	this->name = name;
+	this->surname = surname;
 }
-void Student::addMark(Mark* mark, std::vector<Mark> markVectormarkVector)
+void Student::addMark(Mark* mark)
 {
 	markVector.push_back(*mark);
 }
 void Student::print()
 {
-	std::cout << name << surname << std::endl;
+	std::cout << name << ' ' << surname << std::endl;
 	for (int i = 0; i < markVector.size(); i++)
 	{
-		std::cout << markVector(i) << std::endl;
+		markVector.at(i).print();
 	}
 }
